@@ -1,3 +1,6 @@
+"use strict";
+(function () {
+
 const Student = function (firstName, lastName, birthday, lessonsCount = 25) {
     this.firstName = firstName;
     this.lastName = lastName;
@@ -111,3 +114,5 @@ let r = student1.summary()
 console.log(r)
 
 console.log(student1)
+
+})()
